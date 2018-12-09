@@ -1,0 +1,205 @@
+body {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#wrapper {
+    width: 100vw;
+    min-height: 20vh;
+    min-width: 20vw;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#header {
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    height: 7vh;
+}
+
+ul.headeri {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,ededed+40,ffffff+100 */
+    background: #fcfff4; /* Old browsers */
+    background: -moz-linear-gradient(top, #fcfff4 0%, #ededed 40%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fcfff4 0%,#ededed 40%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fcfff4 0%,#ededed 40%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(216, 216, 216);
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgba(76, 175, 79, 0);
+    color: #000000;
+
+}
+li a:focus, a:hover {
+    color:#000000;
+    text-decoration: none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+0,fcfff4+40,ededed+100 */
+    background: #ededed; /* Old browsers */
+    background: -moz-linear-gradient(top, #ededed 0%, #fcfff4 40%, #ededed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ededed 0%,#fcfff4 40%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ededed 0%,#fcfff4 40%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#containermain {
+    width: 100%;
+    height: 80vh;
+    min-height: 500px;
+    position:relative;
+}
+
+#videocontainer {
+    width: 100%;
+    min-height: 500px;
+    height: 80%;
+    z-index: 0;
+    margin: 0 auto;
+    position:absolute;
+}
+
+video {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+#container{
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#myCarousel {
+    height: 100%;
+    width: 70%;
+    margin: 10% auto 10% auto;
+}
+
+.carousel-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-inner {
+    height:100%;
+}
+
+#middle {
+    width: 100%;
+    height: 50vh;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    position:relative;
+}
+
+#story {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    padding-top: 25px;
+    clear:both;
+
+}
+#linkit{
+    width:35%;
+    float:left;
+
+}
+.peliul {
+    width: 100%;
+    display:block;
+    background-color: #777777;
+}
+
+.pelili {
+    width:100%;
+    height: 150px;
+    background-color: #d1d1d1;
+    display: block;
+}
+
+.center {
+    height: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #d1d1d1;
+}
+
+.center h2, h3{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+a.linkit{
+    height: 100px;
+    display:block;
+    margin: 0 auto;
+}
+
+div.center:hover {
+    text-decoration: none;
+    opacity: 1;
+    background-color: transparent;
+}
+
+a.linkit:link {
+    opacity: 1;
+    text-decoration: none;
+    background: -moz-linear-gradient(top, rgba(124,124,124,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(124,124,124,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(124,124,124,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+a.linkit:visited {
+    opacity: 0;
+    text-decoration: none;
+}
+
+a.linkit:active {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.hovertext {
+    position:relative;
+    display:block;
+    background-color: red;
+    width: 65%;
+    float:left;
+}
+#ffteksti{
+    visibility: hidden;
+}
